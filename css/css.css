@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+* {
+  margin: 0; padding: 0;
+}
+
+html {
+  font-size: 1vw;
+}
+
+/* Global CSS */
+body {
+  background: #e8ecf0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #224669;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #224669;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  color: #2E2E2E;
+  font-size: 1rem;
+}
+
+a {
+  font-size: 1rem;
+}
+
+div.page-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header CSS */
+
+header {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+h1.name {
+  padding-left: 15%;
+}
+
+/* Aside section */
+
+aside {
+  width: 15%;
+  position: fixed;
+}
+
+img.personalPhoto {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  /* makes the photo round and with a border:
+  border-radius: 50%;
+  border: 2px #2E2E2E solid; */
+}
+
+div.businessInformationSection {
+  margin-top: 5%;
+}
+
+div.businessInformationSection > p {
+  text-align: center;
+  line-height: 150%;
+  margin: 0 auto;
+  margin-bottom: 15%;
+}
+
+
+/* central section */
+section.history {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto auto;
+  margin-left: 25%;
+}
+
+section.history > div.content {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border: 2px #224669 solid;
+  border-top: none;
+  padding: 10% 5% 10% 5%;
+  margin-bottom: 10%;
+}
+
+div.title {
+  border: 2px #224669 solid;
+  border-bottom: none;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  border-left: none;
+  text-align: center;
+}
+
+div.title:first-child {
+  border-left: 2px #224669 solid;
+}
+
+div.working.title {
+  border-bottom: 2px #224669 solid;
+}
+
+div.skills.title {
+  border-bottom: 2px #224669 solid;
+}
+
+div.working.content, div.skills.content {
+  display: none;
+}
+
+/* Remove button graphic */
+
+button {
+  border: none;
+  background-color: inherit;
+  color: #224669;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
