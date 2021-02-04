@@ -218,11 +218,19 @@ button:focus {
     padding-top: 10%;
   }
 
-  h1.content_title {
-    font-size: 8rem;
-    font-weight: 500;
+div.content_title {
+  text-align: center;4
+}
+
+button#education_content_title_button, button#working_content_title_button {
+    font-size: 5rem;
+    font-weight: 350;
     text-align: center;
     margin-top: 10%;
+  }
+
+  div.education_list_content, div.working_list_content, div.skills_list_content {
+    display: none;
   }
 
   ul.content_list {

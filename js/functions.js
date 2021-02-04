@@ -53,5 +53,25 @@ $( document ).ready(function() {
         };
     });
   });
+  $('#education_content_title_button').click(function() {
+    $(".education_list_content").toggle(function(e) {
+        if ($(this).is(":visible")) {
+            $(".education_list_content").show();
+        }
+        else {
+            $(".education_list_content").hide();
+        };
+    });
+  });
+  $('#working_content_title_button').click(function() {
+    $(".working_list_content").toggle(function(e) {
+        if ($(this).is(":visible")) {
+            $(".working_list_content").show();
+        }
+        else {
+            $(".working_list_content").hide();
+        };
+    });
+  });
 
 });
