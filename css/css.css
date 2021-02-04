@@ -150,7 +150,7 @@ button {
 
 /* Cellphones */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 740px) {
   h1 {
     font-size: 7rem;
   }
@@ -206,6 +206,5 @@ button {
   div.content {
     display: none;
   }
-
 
 }
