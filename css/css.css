@@ -146,11 +146,15 @@ button {
   cursor: pointer;
 }
 
+button:focus {
+  outline: none;
+}
+
 /* media queries */
 
 /* Cellphones */
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 480px) {
   h1 {
     font-size: 7rem;
   }
@@ -195,12 +199,12 @@ button {
     border: none;
   }
 
-  span.list_alike_element {
-    font-size: 9rem;
+  button {
+      font-size: 8rem;
   }
 
-  button {
-      font-size: 9rem;
+  button:focus {
+    outline: none;
   }
 
   div.content {
