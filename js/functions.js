@@ -73,5 +73,8 @@ $( document ).ready(function() {
         };
     });
   });
+  $('#2016_2021_smm').click(function() {
+    $("#sidepanel_description").show();
+  });
 
 });

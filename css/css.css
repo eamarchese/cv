@@ -42,6 +42,7 @@ a {
 div.page-wrapper {
   width: 80%;
   margin: auto;
+  padding-bottom: 10%;
 }
 
 /* Header CSS */
@@ -155,6 +156,12 @@ h1.content_title {
 }
 
 div.working.content, div.skills.content {
+  display: none;
+}
+
+/* Sidepanel section */
+
+section#sidepanel_description {
   display: none;
 }
 
