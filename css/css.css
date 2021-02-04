@@ -131,9 +131,27 @@ div.skills.title {
   border-bottom: 2px #224669 solid;
 }
 
+ul.education_list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1rem;
+    font-size: 2rem;
+    color: #2E2E2E;
+    line-height: 4rem;
+}
+
+ul.education_list > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1rem;
+    margin-left: -1rem;
+}
+
 div.working.content, div.skills.content {
   display: none;
 }
+
+
 
 /* Remove button graphic */
 
@@ -193,6 +211,18 @@ button:focus {
     text-align: left;
     border: none;
     padding-top: 10%;
+  }
+
+  ul.education_list {
+    font-size: 5rem;
+    line-height: 10rem;
+    padding-top: 10%;
+    margin-left: 2rem;
+  }
+
+  ul.education_list > li:before {
+    margin-left: -3rem;
+    margin-right: 2rem;
   }
 
   div.title:first-child {
