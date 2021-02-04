@@ -21,6 +21,7 @@ h1 {
   font-size: 3rem;
 }
 
+
 h2 {
   font-size: 1.5rem;
 }
@@ -133,4 +134,14 @@ button {
   font-size: 2rem;
   padding-top: 0.5rem;
   cursor: pointer;
+}
+
+/* media queries */
+
+/* Cellphones */
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 7rem;
+  }
 }
