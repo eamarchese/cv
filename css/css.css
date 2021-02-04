@@ -32,11 +32,11 @@ h3 {
 
 p {
   color: #2E2E2E;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 a {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 div.page-wrapper {
@@ -117,6 +117,7 @@ div.title:first-child {
 
 div.working.title {
   border-bottom: 2px #224669 solid;
+  padding-bottom: 5%;
 }
 
 div.skills.title {
@@ -130,6 +131,7 @@ ul.content_list {
     font-size: 2rem;
     color: #2E2E2E;
     line-height: 4rem;
+    margin-bottom: 10%;
 }
 
 ul.content_list > li:before {
