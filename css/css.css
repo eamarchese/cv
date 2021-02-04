@@ -82,8 +82,18 @@ div.businessInformationSection > p {
   margin-bottom: 15%;
 }
 
+div.businessInformationSection > p > strong {
+  font-weight: inherit;
+}
 
 /* central section */
+
+/* Display none the section for mobile devices */
+
+section.history_mobile {
+  display: none;
+}
+
 section.history {
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -153,6 +163,7 @@ button {
   aside {
     width: 50%;
     margin: 0 auto;
+    position: inherit;
   }
 
   p {
@@ -164,7 +175,37 @@ button {
     margin-left: -8rem;
   }
 
+ /* Central section for mobile devices */
+
   section.history {
-    margin-left: auto;
+    display: none;
   }
+
+  section.history_mobile {
+    display: block;
+  }
+
+  div.title {
+    text-align: left;
+    border: none;
+    padding-top: 10%;
+  }
+
+  div.title:first-child {
+    border: none;
+  }
+
+  span.list_alike_element {
+    font-size: 9rem;
+  }
+
+  button {
+      font-size: 9rem;
+  }
+
+  div.content {
+    display: none;
+  }
+
+
 }
