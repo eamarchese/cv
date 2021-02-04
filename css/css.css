@@ -144,4 +144,27 @@ button {
   h1 {
     font-size: 7rem;
   }
+
+  header {
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+
+  aside {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 5rem;
+  }
+
+  a.mailAdress {
+    font-size: 5rem;
+    margin-left: -8rem;
+  }
+
+  section.history {
+    margin-left: auto;
+  }
 }
